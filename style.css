@@ -1,0 +1,208 @@
+.footfrst-container{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-image: url(./assets/pexels-roman-pohorecki-23388.24c027c880c1eeac.jpg);
+    display: flex;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    padding: 80px 10px;
+    background-size: cover;
+    margin-top: 50px;
+    text-align: initial;
+    justify-content: space-around;
+    background-position: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.wrt-container{
+    color: whitesmoke;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-button{
+    padding: 20px;
+    width: 100%;
+    margin-left: -8px;
+    background-color: tomato;
+    border: 0;
+    color: white;
+    border-radius: 8px;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 0;
+    z-index: -1;
+    outline: none;
+    
+   
+}
+
+.delivery-icon{
+    border-style: double;
+    border-radius: 100%;
+}
+
+.return-icon{
+    border-style: double;
+    border-radius: 100%;
+}
+
+.online-icon{
+    border-style: double;
+    border-radius: 100%;
+}
+
+.offer-icon{
+    border-style: double;
+    border-radius: 100%;
+}
+
+.freeget-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin: 50px 50px 50px 50px;
+}
+
+.free-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.return-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-container{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.get-container{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.dicon-container {
+    margin-right: 8px;
+}
+.ricon-container{
+    margin-right: 8px;
+}
+.oicon-container{
+    margin-right: 8px;
+}
+.oficon-container{
+    margin-right: 8px;
+}
+.red-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 16px;
+    margin: 50px 50px 50px 50px;
+}
+.rgimg-container{
+   height: 110px;
+   width: 110px;
+  cursor: pointer;
+  object-fit: contain;
+  display: block;
+  margin: auto auto 15px;
+}
+.rw-container{
+    text-align: justify;
+    margin-right: 30px;
+}
+.nh-container{
+    border-left: 3px solid brown;
+    margin-bottom: 0px;
+    padding: 3px 3px 3px 15px;
+    display: block;
+    box-sizing: border-box;
+}
+.ecab-container{
+    width: 110px;
+    height: 66px;
+    margin-top: 0px;
+    margin-left: 15px;
+    display: block;
+    cursor: pointer;
+}
+.sin-container{
+    margin-bottom: 100px;
+}
+.s-container{
+    text-decoration: none;
+}
+.link-container{
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: darkslategray;
+    box-sizing: border-box;
+}
+
+.RD-container{
+    padding: 3px 3px 3px 15px;
+    box-sizing: border-box;
+    border-left: 3px solid brown;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.ssl-container{
+    width: 90px;
+    height: 20px;
+}
+.dwn-container{
+    width: 100px;
+    height: 30px;
+}
+.bks-container{
+    width: 90px;
+    height: 30px;
+}
+.ggl-container{
+    width: 130px;
+    height: 39px;
+}
+.apl-container{
+    width: 130px;
+    height: 39px;
+}
+.co-container{
+    width: 180px;
+    height: 60px;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    padding: 0%;
+}
+footer{
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 61px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin-bottom: 0!important;
+    padding: 0%;
+    text-align: center;
+    background-color: brown;
+}
